@@ -1,0 +1,9 @@
+{
+  "pipeline": "mitie",
+  "mitie_file": "./data/total_word_feature_extractor.dat",
+    "path" : "./projects",
+    "project" : "myexamp",
+  "data" : "./data/examples/rasa/demo-myexamp.json",
+    "max_training_processes" : 3,
+    "max_number_of_ngrams" : 3  
+}

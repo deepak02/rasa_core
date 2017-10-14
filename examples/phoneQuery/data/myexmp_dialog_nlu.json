@@ -1,0 +1,105 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "I want to know the status of my bill plan change", 
+        "intent": "bill_plan_change", 
+        "entities": []
+      },
+      {
+        "text": "Hi", 
+        "intent": "greet", 
+        "entities": []
+      },
+      {
+        "text": "No, I do not remember", 
+        "intent": "no_request_num", 
+        "entities": []
+      },
+      {
+        "text": "Deepak Gupta", 
+        "intent": "customer_num", 
+          "entities": [
+              { "value": "Deepak Gupta",
+                "start": 1,
+                "end": 12,
+                "entity": "cus_name",
+                "extractor": "ner_crf"}
+           ]
+      },
+      {
+        "text": "9958890888", 
+        "intent": "phone_num", 
+          "entities": [
+              { "value": "9958890888",
+                "start": 0,
+                "end": 10,
+                "entity": "phone_num",
+                "extractor": "ner_crf"}
+           ]
+      },
+      {
+        "text": "yes", 
+        "intent": "affermation", 
+        "entities": []
+      },
+      {
+        "text": "sure, thanks", 
+        "intent": "sure_thanks", 
+        "entities": []
+      },
+      {
+        "text": "Hello", 
+        "intent": "greet", 
+        "entities": []
+      },
+      {
+        "text": "can you tell me the status of my bill plan change", 
+        "intent": "bill_plan_change", 
+        "entities": []
+      },
+      {
+        "text": "Hello", 
+        "intent": "greet", 
+        "entities": []
+      },
+      {
+        "text": "I do not know it", 
+        "intent": "no_request_num", 
+        "entities": []
+      },
+      {
+        "text": "Yogesh Gupta", 
+        "intent": "customer_num", 
+          "entities": [
+              { "value": "Yogesh Gupta",
+                "start": 1,
+                "end": 12,
+                "entity": "cus_name",
+                "extractor": "ner_crf"}
+           ]
+      },
+      {
+        "text": "9958890887", 
+        "intent": "phone_num", 
+          "entities": [
+              { "value": "9958890887",
+                "start": 0,
+                "end": 10,
+                "entity": "phone_num",
+                "extractor": "ner_crf"}
+           ]
+      },
+      {
+        "text": "you are right", 
+        "intent": "affermation", 
+        "entities": []
+      },
+      {
+        "text": "sure thank you", 
+        "intent": "sure_thanks", 
+        "entities": []
+      }        
+    ]
+  }
+}
