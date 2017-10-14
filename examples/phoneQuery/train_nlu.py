@@ -24,7 +24,7 @@ def train_phonequery_nlu():
     trainer = Trainer(RasaNLUConfig("examples/phoneQuery/data/config_nlu.json"))
 #    trainer = Trainer(RasaNLUConfig("examples/phoneQuery/data/config_nlu_my.json"))
     trainer.train(training_data)
-    model_directory = trainer.persist('examples/PhoneQuery/models/nlu/',
+    model_directory = trainer.persist('examples/phoneQuery/models/nlu/',
                                       fixed_model_name=model_name1)
     return model_directory
 

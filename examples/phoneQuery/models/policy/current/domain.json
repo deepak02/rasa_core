@@ -2,7 +2,7 @@
   "features": [
     "intent_greet", 
     "intent_bill_plan_change", 
-    "intent_phone_num[phone_num]", 
+    "intent_phone_num[phone_numb]", 
     "intent_no_request_num", 
     "intent_customer_num[cus_name]", 
     "intent_affermation", 

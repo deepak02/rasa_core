@@ -27,7 +27,7 @@
           }
         ], 
         "intent": "customer_num", 
-        "text": "Deepak Gupta is the customer name"
+        "text": "Deepak Gupta is my name"
       }, 
       {
         "entities": [
@@ -36,7 +36,7 @@
             "extractor": "ner_crf", 
             "end": 10, 
             "value": "9958890888", 
-            "entity": "phone_numb"
+            "entity": "phone_num"
           }
         ], 
         "intent": "phone_num", 
@@ -49,7 +49,7 @@
       }, 
       {
         "entities": [], 
-        "intent": "affermation", 
+        "intent": "sure_thanks", 
         "text": "sure, thanks"
       }, 
       {
@@ -83,7 +83,7 @@
           }
         ], 
         "intent": "customer_num", 
-        "text": "Yogesh Gupta is the customer name"
+        "text": "Yogesh Gupta is my name"
       }, 
       {
         "entities": [
@@ -91,12 +91,12 @@
             "start": 0, 
             "extractor": "ner_crf", 
             "end": 10, 
-            "value": "9958890888", 
-            "entity": "phone_numb"
+            "value": "9958890887", 
+            "entity": "phone_num"
           }
         ], 
         "intent": "phone_num", 
-        "text": "9958890888 is my number"
+        "text": "9958890887"
       }, 
       {
         "entities": [], 
@@ -105,7 +105,7 @@
       }, 
       {
         "entities": [], 
-        "intent": "affermation", 
+        "intent": "sure_thanks", 
         "text": "sure thank you"
       }
     ], 

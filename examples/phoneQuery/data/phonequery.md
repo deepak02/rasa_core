@@ -11,7 +11,7 @@
  - utter_change_request_specification
 * _affermation
  - giving_date_for_change
-* _sure_thanks
+* _affermation
  - utter_ask_any_other_help
 
 

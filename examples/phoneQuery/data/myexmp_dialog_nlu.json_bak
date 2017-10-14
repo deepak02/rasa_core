@@ -34,7 +34,7 @@
               { "value": "9958890888",
                 "start": 0,
                 "end": 10,
-                "entity": "phone_numb",
+                "entity": "phone_num",
                 "extractor": "ner_crf"}
            ]
       },
@@ -45,7 +45,7 @@
       },
       {
         "text": "sure, thanks", 
-        "intent": "affermation", 
+        "intent": "sure_thanks", 
         "entities": []
       },
       {
@@ -80,13 +80,13 @@
            ]
       },
       {
-        "text": "9958890888 is my number", 
+        "text": "9958890887 is my number", 
         "intent": "phone_num", 
           "entities": [
-              { "value": "9958890888",
+              { "value": "9958890887",
                 "start": 0,
                 "end": 10,
-                "entity": "phone_numb",
+                "entity": "phone_num",
                 "extractor": "ner_crf"}
            ]
       },
@@ -97,7 +97,7 @@
       },
       {
         "text": "sure thank you", 
-        "intent": "affermation", 
+        "intent": "sure_thanks", 
         "entities": []
       }        
     ]
