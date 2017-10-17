@@ -2,14 +2,25 @@
   "rasa_nlu_data": {
     "common_examples": [
       {
+        "text": "Hi", 
+        "intent": "greet", 
+        "entities": []
+      },
+      {
         "text": "I want to know the status of my bill plan change", 
         "intent": "bill_plan_change", 
         "entities": []
       },
       {
-        "text": "Hi", 
-        "intent": "greet", 
-        "entities": []
+        "text": "9958890888 is my phone number", 
+        "intent": "get_phone_number", 
+          "entities": [
+              { "value": "9958890888",
+                "start": 0,
+                "end": 10,
+                "entity": "phone_num",
+                "extractor": "ner_crf"}
+           ]
       },
       {
         "text": "No, I do not remember", 
@@ -17,7 +28,7 @@
         "entities": []
       },
       {
-        "text": "Deepak Gupta is the customer name", 
+        "text": "Deepak Gupta is customer name", 
         "intent": "customer_num", 
           "entities": [
               { "value": "Deepak Gupta",
@@ -28,24 +39,13 @@
            ]
       },
       {
-        "text": "9958890888 is my number", 
-        "intent": "phone_num", 
-          "entities": [
-              { "value": "9958890888",
-                "start": 0,
-                "end": 10,
-                "entity": "phone_numb",
-                "extractor": "ner_crf"}
-           ]
-      },
-      {
-        "text": "yes", 
+        "text": "yes, you are right about request", 
         "intent": "affermation", 
         "entities": []
       },
       {
         "text": "sure, thanks", 
-        "intent": "affermation", 
+        "intent": "sure_thanks", 
         "entities": []
       },
       {
@@ -69,7 +69,7 @@
         "entities": []
       },
       {
-        "text": "Yogesh Gupta is the customer name", 
+        "text": "Yogesh Gupta is customer name", 
         "intent": "customer_num", 
           "entities": [
               { "value": "Yogesh Gupta",
@@ -80,24 +80,24 @@
            ]
       },
       {
-        "text": "9958890888 is my number", 
-        "intent": "phone_num", 
+        "text": "9958890887 is my phone number", 
+        "intent": "get_phone_number", 
           "entities": [
-              { "value": "9958890888",
+              { "value": "9958890887",
                 "start": 0,
                 "end": 10,
-                "entity": "phone_numb",
+                "entity": "phone_num",
                 "extractor": "ner_crf"}
            ]
       },
       {
-        "text": "you are right", 
+        "text": "you are right in this sense about my request", 
         "intent": "affermation", 
         "entities": []
       },
       {
         "text": "sure thank you", 
-        "intent": "affermation", 
+        "intent": "sure_thanks", 
         "entities": []
       }        
     ]

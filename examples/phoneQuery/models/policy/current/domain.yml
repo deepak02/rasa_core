@@ -15,9 +15,9 @@ entities:
 intents:
 - greet
 - bill_plan_change
-- phone_num[phone_numb]
+- get_phone_number
 - no_request_num
-- customer_num[cus_name]
+- customer_num
 - affermation
 - sure_thanks
 slots:
