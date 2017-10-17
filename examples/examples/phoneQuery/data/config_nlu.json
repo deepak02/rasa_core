@@ -1,0 +1,4 @@
+{
+  "mitie_file": "../../rasa_nlu-master/data/total_word_feature_extractor.dat",
+  "pipeline": "mitie"
+}
